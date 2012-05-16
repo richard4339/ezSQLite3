@@ -6,6 +6,7 @@
  * @author		Richard Lynskey <richard@mozor.net>
  * @link		https://github.com/richard4339/ezSQLite3
  * @version		0.1
+ * @package     ezSQLite3
  * @access		public
  * @param		string		file
  * @return		object
