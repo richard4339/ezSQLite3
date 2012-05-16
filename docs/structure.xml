@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2.0.0a2" title="">
+  <file path="sql.php" hash="776f6cf1271df820b899f43f5dc15102" package="Default">
+    <parse_markers>
+      <error line="1" code="50007">No page-level DocBlock was found in file sql.php</error>
+    </parse_markers>
+    <class final="false" abstract="false" namespace="default" line="13" package="Default">
+      <name>sql</name>
+      <full_name>\sql</full_name>
+      <extends/>
+      <docblock line="3">
+        <description><![CDATA[SQLite3 Class]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="3" name="author" description="Richard Lynskey &lt;richard@mozor.net&gt;"/>
+        <tag line="3" name="link" description="https://github.com/richard4339/ezSQLite3" link="https://github.com/richard4339/ezSQLite3"/>
+        <tag line="3" name="version" description="0.1"/>
+        <tag line="3" name="access" description="public"/>
+        <tag line="3" name="param" description="file" type="string" variable="">
+          <type by_reference="false">string</type>
+        </tag>
+        <tag line="3" name="return" description="" type="object">
+          <type by_reference="false">object</type>
+        </tag>
+      </docblock>
+      <property final="false" static="false" visibility="public" line="19" package="Default">
+        <name>$db</name>
+        <default><![CDATA[]]></default>
+        <docblock line="15">
+          <description><![CDATA[DB]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="15" name="var" description="Object" type="\SQLite3">
+            <type by_reference="false">\SQLite3</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="25" package="">
+        <name>__construct</name>
+        <type>function</type>
+        <docblock line="21">
+          <description><![CDATA[Constructor]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="21" name="param" description="" type="string" variable="$file">
+            <type by_reference="false">string</type>
+          </tag>
+        </docblock>
+        <argument line="25">
+          <name>$file</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="default" line="35" package="">
+        <name>get_results</name>
+        <type>function</type>
+        <docblock line="30">
+          <description><![CDATA[Returns results from a query]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="30" name="param" description="" type="string" variable="$query">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="30" name="return" description="" type="array">
+            <type by_reference="false">array</type>
+          </tag>
+        </docblock>
+        <argument line="35">
+          <name>$query</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <package name="" full_name=""/>
+  <package name="Default" full_name="Default"/>
+  <namespace name="default" full_name="default"/>
+  <marker count="0">todo</marker>
+  <marker count="0">fixme</marker>
+  <deprecated count="0"/>
+</project>
